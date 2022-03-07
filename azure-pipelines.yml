@@ -20,4 +20,8 @@ steps:
       azure_static_web_apps_api_token: $(deployment_token)
   - task: Bash@3
     inputs:
-      script: /test/test.sh
+      targetType: 'inline'
+      script: |
+        ./test.sh
+      failOnStderr: true
+      workingDirectory: "$(System.DefaultWorkingDirectory)/test/"

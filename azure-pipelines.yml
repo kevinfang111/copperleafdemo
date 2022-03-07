@@ -22,6 +22,8 @@ steps:
     inputs:
       targetType: 'inline'
       script: |
+        pwd
+        ls
         ./test.sh
       failOnStderr: true
       workingDirectory: "$(System.DefaultWorkingDirectory)/copperleafdemo/test/"

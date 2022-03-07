@@ -22,4 +22,3 @@ steps:
     inputs:
       targetType: 'inline'
       script: 'sh test.sh'
-      

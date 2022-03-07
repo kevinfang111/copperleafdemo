@@ -19,5 +19,5 @@ steps:
       output_location: '/src'
       azure_static_web_apps_api_token: $(deployment_token)
   - task: Bash@3
-  inputs:
+    inputs:
     filePath: 'test/test.sh'

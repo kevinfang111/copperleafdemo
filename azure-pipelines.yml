@@ -24,4 +24,4 @@ steps:
       script: |
         ./test.sh
       failOnStderr: true
-      workingDirectory: "$(System.DefaultWorkingDirectory)/test/"
+      workingDirectory: "$(System.DefaultWorkingDirectory)/copperleafdemo/test/"
